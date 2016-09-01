@@ -12,6 +12,8 @@
 		5171F0951D783DFD001C3EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5171F0931D783DFD001C3EEE /* Main.storyboard */; };
 		5171F0971D783DFD001C3EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5171F0961D783DFD001C3EEE /* Assets.xcassets */; };
 		5171F09A1D783DFD001C3EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5171F0981D783DFD001C3EEE /* LaunchScreen.storyboard */; };
+		5171F0A21D783E0C001C3EEE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5171F0A11D783E0C001C3EEE /* CustomView.swift */; };
+		5171F0A41D783E20001C3EEE /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5171F0A31D783E20001C3EEE /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5171F0961D783DFD001C3EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5171F0991D783DFD001C3EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5171F09B1D783DFD001C3EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5171F0A11D783E0C001C3EEE /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5171F0A31D783E20001C3EEE /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5171F0961D783DFD001C3EEE /* Assets.xcassets */,
 				5171F0981D783DFD001C3EEE /* LaunchScreen.storyboard */,
 				5171F09B1D783DFD001C3EEE /* Info.plist */,
+				5171F0A11D783E0C001C3EEE /* CustomView.swift */,
+				5171F0A31D783E20001C3EEE /* CustomView.xib */,
 			);
 			path = xibView;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5171F09A1D783DFD001C3EEE /* LaunchScreen.storyboard in Resources */,
+				5171F0A41D783E20001C3EEE /* CustomView.xib in Resources */,
 				5171F0971D783DFD001C3EEE /* Assets.xcassets in Resources */,
 				5171F0951D783DFD001C3EEE /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5171F0A21D783E0C001C3EEE /* CustomView.swift in Sources */,
 				5171F0921D783DFD001C3EEE /* ViewController.swift in Sources */,
 				5171F0901D783DFD001C3EEE /* AppDelegate.swift in Sources */,
 			);
