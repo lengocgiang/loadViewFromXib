@@ -25,9 +25,10 @@ class CustomView: UIView {
     }
     
     func loadFromXib() -> Void {
-        NSBundle.mainBundle().loadNibNamed("CustomView", owner: self, options: nil)
+        //NSBundle.mainBundle().loadNibNamed("CustomView", owner: self, options: nil)
+        Bundle.main.loadNibNamed("CustomView", owner: self, options: nil)
         view.frame = self.frame
-        view.backgroundColor = UIColor.redColor()
+        view.backgroundColor = UIColor.red
         self.addSubview(view)
     }
 }
